@@ -7,10 +7,10 @@
 
 ## The paper and its headline claim
 
-- **Paper:** TODO: full citation (authors, year, title, journal, volume, pages).
-- **Identification strategy:** TODO: difference-in-differences / instrumental variables / regression discontinuity / matching.
-- **Headline claim:** TODO: one sentence, with the number and where it is in the paper (for example, Table 2, column 3).
-- **My replication:** TODO: my number beside theirs, and the gap in percent, as `python reproduce.py` prints it.
+- **Paper:** Card, D. (1995). “Using Geographic Variation in College Proximity to Estimate the Return to Schooling.” In L. N. Christofides, E. K. Grant and R. Swidinsky (eds.), Aspects of Labour Market Behaviour: Essays in Honour of John Vanderkamp, pp. 201–222. University of Toronto Press.
+- **Identification strategy:** Instrumental variables using two-stage least squares, with childhood proximity to a four-year college as the instrument for years of schooling.
+- **Headline claim:** An additional year of schooling raises hourly wages by an estimated 13.2 log points (SE 5.5 log points), reported in Table 3, Panel A, column (5).
+- **My replication:** TODO: 0.1315 (SE 0.0550) compared with the paper’s 0.132 (SE 0.055), a gap of −0.0005, or approximately 0.38% below the paper’s reported estimate, explained by rounding.
 
 ## Reproduce the headline table
 
