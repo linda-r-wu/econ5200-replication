@@ -1,16 +1,11 @@
-# TODO: Replicating Author (Year), "Title of the paper"
-
-> **Template note, delete before you submit.** This is the ECON 5200 replication template.
-> Replace every line that starts with `TODO:`. The grader clones this repository into an
-> empty directory, builds the environment from `requirements.txt` and runs the one command
-> below. The number this README claims must be the number that run produces.
+Replicating Card (1995): A Positive Return to Schooling, with Uncertainty About Its Size
 
 ## The paper and its headline claim
 
 - **Paper:** Card, D. (1995). “Using Geographic Variation in College Proximity to Estimate the Return to Schooling.” In L. N. Christofides, E. K. Grant and R. Swidinsky (eds.), Aspects of Labour Market Behaviour: Essays in Honour of John Vanderkamp, pp. 201–222. University of Toronto Press.
 - **Identification strategy:** Instrumental variables using two-stage least squares, with childhood proximity to a four-year college as the instrument for years of schooling.
 - **Headline claim:** An additional year of schooling raises hourly wages by an estimated 13.2 log points (SE 5.5 log points), reported in Table 3, Panel A, column (5).
-- **My replication:** TODO: 0.1315 (SE 0.0550) compared with the paper’s 0.132 (SE 0.055), a gap of −0.0005, or approximately 0.38% below the paper’s reported estimate, explained by rounding.
+- **My replication:** 0.1315 (SE 0.0550) compared with the paper’s 0.132 (SE 0.055), a gap of −0.0005, or approximately 0.38% below the paper’s reported estimate, explained by rounding.
 
 ## Reproduce the headline table
 
@@ -33,8 +28,11 @@ outputs, go to `output/executed/`.
 
 ## Data: source and licence
 
-- **Source:** TODO: the URL in `download_data.py` for your paper, and who produced the original data.
-- **Included or downloaded:** TODO: say which, and why.
+## Data: source and licence
+
+- **Source:** NLS Young Men data used by Card, available from Scott Cunningham’s Mixtape repository:
+  https://raw.githubusercontent.com/scunning1975/mixtape/master/card.dta
+- **Included or downloaded:** Downloaded automatically using `download_data.py`. This follows the template’s default approach and lets the project retrieve the data without a manual upload.
 
 The template downloads by default: `.gitignore` excludes `data/*.dta`, and
 `download_data.py` fetches the files on the first run. Two facts to check before you
@@ -63,8 +61,6 @@ the files with the licence notice, and say so above.
 | `ai-appendix.md` | P.R.I.M.E. entries and full transcripts for Sections 3 to 6, and the no-AI statement for Sections 1 and 2 |
 | `AUDIT.md` | How to run the peer audit you file on a classmate's repository |
 | `requirements.txt` | Pinned package versions |
-
-TODO: add a row for every file you add.
 
 ## Use of AI
 
