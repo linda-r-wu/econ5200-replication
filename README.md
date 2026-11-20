@@ -1,4 +1,4 @@
-Replicating Card (1995): A Positive Return to Schooling, with Uncertainty About Its Size
+### Replicating Card (1995): A Positive Return to Schooling, with Uncertainty About Its Size
 
 ## The paper and its headline claim
 
