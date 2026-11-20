@@ -52,5 +52,4 @@ outputs, go to `output/executed/`.
 
 Sections 1 and 2 were completed without AI.
 
-TODO: list the sections where you used AI (from 3, 4, 5 and 6), for what, and point to the
-entries in [`ai-appendix.md`](ai-appendix.md). If you used none, say so.
+I used AI in all four exercises of Section 3, some for coding, some for clarity on conceptual understanding. I also used AI on Section 6 to help me practice run the replication on my own personal terminal to ensure it is working smoothly for my peer reviewer.
