@@ -24,7 +24,7 @@ it downloads the data if `data/` does not have it, runs `notebooks/01_positionin
 table from `output/headline_table.csv`. Executed copies of the notebooks, with their
 outputs, go to `output/executed/`.
 
-- **Expected runtime:** TODO: minutes on your machine, measured from a clean clone (the empty template runs in under a minute).
+- **Expected runtime:** - About 46 seconds on my MacBook Air, with dependencies installed and the data already downloaded.
 
 ## Data: source and licence
 
@@ -32,18 +32,6 @@ outputs, go to `output/executed/`.
   https://raw.githubusercontent.com/scunning1975/mixtape/master/card.dta
 - **Included or downloaded:** Downloaded automatically using `download_data.py`. This follows the template’s default approach and lets the project retrieve the data without a manual upload.
 
-The template downloads by default: `.gitignore` excludes `data/*.dta`, and
-`download_data.py` fetches the files on the first run. Two facts to check before you
-decide:
-
-- The five files from `scunning1975/mixtape` (castle, card, lee, hansen, abortion) are in a
-  repository under an MIT-style licence that permits copies if its notice is kept. The
-  underlying data were collected by the original authors.
-- The Dehejia-Wahba files on `users.nber.org/~rdehejia` state no licence. Download them;
-  do not commit them.
-
-If you decide to include the data, delete the `data/*.dta` line from `.gitignore`, commit
-the files with the licence notice, and say so above.
 
 ## Repository map
 
