@@ -28,8 +28,6 @@ outputs, go to `output/executed/`.
 
 ## Data: source and licence
 
-## Data: source and licence
-
 - **Source:** NLS Young Men data used by Card, available from Scott Cunningham’s Mixtape repository:
   https://raw.githubusercontent.com/scunning1975/mixtape/master/card.dta
 - **Included or downloaded:** Downloaded automatically using `download_data.py`. This follows the template’s default approach and lets the project retrieve the data without a manual upload.
